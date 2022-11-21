@@ -1,0 +1,70 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.182.138”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  Codec_Serve.cpp
+  Hash_1.cpp
+  Hash_224.cpp
+  Hash_Md5.cpp
+  Hash_myUsed.cpp
+  main.cpp
+  MyAes.cpp
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyAes.cpp(25,23): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyAes.cpp(25,23): warning :   int len = strlen(in) + 1;
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyAes.cpp(25,23): warning :             ~~~~~~~~~~~^~~
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyAes.cpp(46,22): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyAes.cpp(46,22): warning :   int len = strlen(in)+1;
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyAes.cpp(46,22): warning :             ~~~~~~~~~~^~
+  MyRsa.cpp
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyRsa.cpp(41,6): warning : unused variable ‘ret’ [-Wunused-variable]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyRsa.cpp(41,6): warning :   int ret = RSA_generate_key_ex(rsa, 1024, e, NULL);
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyRsa.cpp(41,6): warning :       ^~~
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyRsa.cpp(51,6): warning : unused variable ‘ret’ [-Wunused-variable]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyRsa.cpp(51,6): warning :   int ret = RSA_generate_key_ex(rsa, 1024, e, NULL);
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyRsa.cpp(51,6): warning :       ^~~
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyRsa.cpp(90,37): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyRsa.cpp(90,37): warning :   int len = RSA_public_encrypt(strlen(p), (const unsigned char*)p,
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyRsa.cpp(90,37): warning :                                ~~~~~~^~~
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyRsa.cpp(90,6): warning : unused variable ‘len’ [-Wunused-variable]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyRsa.cpp(90,6): warning :   int len = RSA_public_encrypt(strlen(p), (const unsigned char*)p,
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyRsa.cpp(90,6): warning :       ^~~
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyRsa.cpp(102,6): warning : unused variable ‘len2’ [-Wunused-variable]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyRsa.cpp(102,6): warning :   int len2 = RSA_private_decrypt(keyLen2, (const unsigned char*)buf,
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\MyRsa.cpp(102,6): warning :       ^~~~
+  Serve.pb.cc
+  Serve_Tcp.cpp
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\Serve_Tcp.cpp(5,1): warning : no return statement in function returning non-void [-Wreturn-type]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\Serve_Tcp.cpp(5,1): warning :  }
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\Serve_Tcp.cpp(5,1): warning :  ^
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\Serve_Tcp.cpp(106,1): warning : no return statement in function returning non-void [-Wreturn-type]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\Serve_Tcp.cpp(106,1): warning :  }
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\Serve_Tcp.cpp(106,1): warning :  ^
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\Serve_Tcp.cpp(52,1): warning : control reaches end of non-void function [-Wreturn-type]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\Serve_Tcp.cpp(52,1): warning :  }
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\Serve_Tcp.cpp(52,1): warning :  ^
+  TcpSocket.cpp
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(27,1): warning : no return statement in function returning non-void [-Wreturn-type]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(27,1): warning :  }
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(27,1): warning :  ^
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(32,14): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(32,14): warning :   int len=recv(m_sockfd, buf, size, 0);
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(32,14): warning :           ~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(42,23): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(42,23): warning :   int datadlen = strlen(data);
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(42,23): warning :                  ~~~~~~^~~~~~
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(43,15): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(43,15): warning :   int leng=send(m_sockfd, data, datadlen, 0);
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(43,15): warning :            ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(52,33): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(52,33): warning :   int datadlen = strlen(sendData)+1;
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(52,33): warning :                  ~~~~~~~~~~~~~~~~^~
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(53,17): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(53,17): warning :   int leng = send(m_sockfd, sendData, datadlen, 0);
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(53,17): warning :              ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(63,1): warning : no return statement in function returning non-void [-Wreturn-type]
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(63,1): warning :  }
+E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\TcpSocket.cpp(63,1): warning :  ^
+  正在链接对象
+  Data_EndeCode_Tcp_transport_Serve.vcxproj -> E:\.._0_projects\Data_EndeCode_Tcp_transport_Serve\bin\x64\Debug\Data_EndeCode_Tcp_transport_Serve.out

@@ -1,0 +1,12 @@
+syntax="proto3";
+
+package Client_Proto;
+
+message ClientInfo
+{
+int32 CmdType=1;
+bytes ClientId=2;
+bytes ServeId=3;
+bytes Data=4;
+bytes sign=5;
+}

@@ -1,0 +1,12 @@
+syntax="proto3";
+
+package Serve_Proto;
+
+message ServeInfo
+{
+bool status=1;
+bytes ClientId=2;
+bytes ServeId=3;
+bytes Data=4;
+int32 seckeyID=5;
+}

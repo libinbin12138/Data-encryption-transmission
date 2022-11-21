@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Data_EndeCode_Tcp_transport_Serve", "Data_EndeCode_Tcp_transport_Serve.vcxproj", "{67C08486-AAAD-4B39-A332-2C0E226ED2AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Debug|ARM.Build.0 = Debug|ARM
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Debug|ARM.Deploy.0 = Debug|ARM
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Debug|ARM64.Build.0 = Debug|ARM64
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Debug|x64.ActiveCfg = Debug|x64
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Debug|x64.Build.0 = Debug|x64
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Debug|x64.Deploy.0 = Debug|x64
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Debug|x86.ActiveCfg = Debug|x86
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Debug|x86.Build.0 = Debug|x86
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Debug|x86.Deploy.0 = Debug|x86
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Release|ARM.ActiveCfg = Release|ARM
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Release|ARM.Build.0 = Release|ARM
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Release|ARM.Deploy.0 = Release|ARM
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Release|ARM64.ActiveCfg = Release|ARM64
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Release|ARM64.Build.0 = Release|ARM64
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Release|ARM64.Deploy.0 = Release|ARM64
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Release|x64.ActiveCfg = Release|x64
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Release|x64.Build.0 = Release|x64
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Release|x64.Deploy.0 = Release|x64
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Release|x86.ActiveCfg = Release|x86
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Release|x86.Build.0 = Release|x86
+		{67C08486-AAAD-4B39-A332-2C0E226ED2AE}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CA08C30-0AC2-47AF-A4A6-89BDC9A5F6D9}
+	EndGlobalSection
+EndGlobal
